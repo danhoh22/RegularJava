@@ -129,7 +129,7 @@ public class RegularValidatorTest {
             "PASSSWORD",
             "password",
             "12345678",
-            "!Password837"
+            "-Password837"
     })
     public void incorrectPass(String password){
         assertFalse(RegularValidator.Pass_validate(password));
